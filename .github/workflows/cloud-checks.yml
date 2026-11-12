@@ -1,0 +1,21 @@
+name: Cloud core checks
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  portable-core:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Validate layout and sample data
+        run: python3 -m unittest discover -s Tests -v
+      - name: Build and test C++ rules with UBSan
+        run: python3 Tools/run_economy_tests.py --suite all --sanitize
+      - name: Complete the sample round
+        run: python3 Tools/run_session_demo.py --demo --sanitize
+      - name: Complete the endgame contracts
+        run: python3 Tools/run_session_demo.py --endgame-demo --sanitize

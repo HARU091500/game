@@ -1,0 +1,21 @@
+# Unreal generated files (keep Content, Config, Source, Plugins and .uproject).
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.ipch
+__pycache__/
+*.pyc
+# Windows/macOS local metadata.
+Thumbs.db
+.DS_Store

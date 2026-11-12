@@ -1,0 +1,17 @@
+{
+  "map_path": "/Game/LastStorage/Maps/L_Warehouse",
+  "room_cm": {"width": 1200, "depth": 1000, "height": 300, "wall_thickness": 50},
+  "player_start_cm": [0, -350, 110],
+  "items": [
+    {"id": "radio", "name": "古いラジオ", "description": "年代物のラジオ。型番と動作状態はまだ不明。", "location_cm": [-400, 0, 32.5]},
+    {"id": "camera", "name": "フィルムカメラ", "description": "フィルム式のカメラ。レンズに小さな傷がある。", "location_cm": [-200, 0, 32.5]},
+    {"id": "clock", "name": "置き時計", "description": "木製ケースの置き時計。針は止まっている。", "location_cm": [0, 0, 32.5]},
+    {"id": "toolbox", "name": "工具箱", "description": "使い込まれた工具箱。中身の確認はこれから。", "location_cm": [200, 0, 32.5]},
+    {"id": "record", "name": "レコード", "description": "紙のジャケットに入ったレコード。盤面の状態は未確認。", "location_cm": [400, 0, 32.5]},
+    {"id": "vase", "name": "花瓶", "description": "陶器の花瓶。底面に小さな銘が見える。", "location_cm": [-400, 250, 32.5]},
+    {"id": "console", "name": "レトロゲーム機", "description": "古い家庭用ゲーム機。通電するかは不明。", "location_cm": [-200, 250, 32.5]},
+    {"id": "watch", "name": "腕時計", "description": "金属ベルトの腕時計。真贋の鑑定はまだできない。", "location_cm": [0, 250, 32.5]},
+    {"id": "painting", "name": "額入りの絵", "description": "風景画が入った額。作者を調べる必要がある。", "location_cm": [200, 250, 32.5]},
+    {"id": "chest", "name": "小さな木箱", "description": "装飾のある木箱。鍵はかかっていない。", "location_cm": [400, 250, 32.5]}
+  ]
+}

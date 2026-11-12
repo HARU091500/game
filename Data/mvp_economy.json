@@ -1,0 +1,18 @@
+{
+  "warehouse_id": "warehouse-01",
+  "starting_funds": 1000,
+  "opening_bid": 100,
+  "demo_bid": 300,
+  "items": [
+    {"type_id": "radio", "reference_value": 250, "appraisal_value": 250},
+    {"type_id": "camera", "reference_value": 300, "appraisal_value": 300},
+    {"type_id": "clock", "reference_value": 150, "appraisal_value": 150},
+    {"type_id": "toolbox", "reference_value": 100, "appraisal_value": 100},
+    {"type_id": "record", "reference_value": 80, "appraisal_value": 80},
+    {"type_id": "vase", "reference_value": 120, "appraisal_value": 120},
+    {"type_id": "console", "reference_value": 400, "appraisal_value": 400},
+    {"type_id": "watch", "reference_value": 200, "appraisal_value": 200},
+    {"type_id": "painting", "reference_value": 100, "appraisal_value": 100},
+    {"type_id": "chest", "reference_value": 50, "appraisal_value": 50}
+  ]
+}
